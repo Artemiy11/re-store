@@ -1,0 +1,23 @@
+.book-wrapper {
+    display: flex;
+}
+
+.book-info {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-title, .book-author, .book-price {
+    font-size: 1.4rem;
+    display: block;
+}
+
+.book-img {
+    height: 150px;
+}
+
+.book-button {
+    display: block;
+}
